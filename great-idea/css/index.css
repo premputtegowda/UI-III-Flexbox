@@ -64,3 +64,195 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* setting up body margin */
+body {
+	width:60%;
+	margin:0 auto;
+	
+}
+/* header */
+/* header{
+	margin-bottom:10%;
+	width:100%;
+	position:sticky;
+	top:0;
+	/* border: 1px solid black; */
+	/* color:white; */
+	/* background-color:palegoldenrod; */
+/* } */ 
+
+
+	
+
+
+
+
+nav {
+	display:flex;
+	justify-content: space-between;
+	width:100%;
+	height:50vh;
+	align-items: center;
+
+	
+}
+/* nav menu items */
+nav a{
+	text-decoration: none;
+	color: grey;
+}
+
+/* all sections */
+section{
+	margin-bottom: 5%;
+	
+}
+/* section 1 */
+.section1{
+	display:flex;
+	justify-content: right;
+	
+	
+
+}	
+	.intro{
+		width: 43%;
+    	text-align: center;
+    	padding: 10%;
+	}
+	/* h1 font-size */
+	h1 {
+		font-size: 500%;
+		
+		/* text-align: center; */
+		letter-spacing: 1px;
+	}
+	/* button */
+	.intro button {
+	
+	border: 1px solid black;
+	padding:2%;
+	font-size:120%;
+	}
+	/* image */
+	.intro img{
+		margin-left:15%;
+		
+	}
+/* section 2 */
+
+
+.section2 {
+	display: flex;
+	justify-content:space-between ;
+	border-top: 1px solid black;
+	height:150vh;
+	align-items:flex-end;
+	flex-wrap: wrap;
+}
+/* div .details width adjustment */
+.details {
+   
+	width:45%;
+  	
+}
+/* .picture width adjustment */
+.picture {
+	width:100%;
+}
+/* center img */
+.middle-img{
+	width:100%;
+}
+/* section 3 */
+.section3 {
+	display:flex;
+
+}
+.additional-info {
+	
+	width:30%;
+}
+
+.contact{
+	padding-top:5%;
+	border-top:1px solid black;
+	margin-top:2%;
+}
+
+footer{
+	padding:2%;
+	text-align: center;
+}
+
+
+/* Services page Css begins here */
+
+
+/* section top	 */
+.top{
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid black;
+	
+}
+	/* div  */
+	.top div{
+		margin-bottom:2%;
+	}
+	/* image */
+	.services-header-img{
+		width:100%;
+	}
+
+/* .main section */
+.main {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+	/* main-div divs */
+	.main-div {
+		width: 45%;
+		height: 45%;
+		margin-bottom: 2%;
+		border: 1px solid grey;
+		padding: 2%;
+		background:#F5F5F5;
+	}
+/* bottom section */
+.bottom{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+}
+
+.bottom-div{
+	width: 45%;
+    height: 45%;
+	margin-bottom: 2%;
+	
+   
+    
+    
+}
+
+/* img */
+.services-info-img{
+	width:100%;
+}
+
+/* bullet styling */
+.square{
+	margin-top:2%;
+}
+.square li {
+	list-style-type: square;
+	padding:2%;
+	margin-left:5%;
+
+}
+
+
