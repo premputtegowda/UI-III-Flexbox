@@ -65,21 +65,16 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* setting up body margin */
+
+
+
+
 body {
 	width:60%;
 	margin:0 auto;
 	
 }
-/* header */
-/* header{
-	margin-bottom:10%;
-	width:100%;
-	position:sticky;
-	top:0;
-	/* border: 1px solid black; */
-	/* color:white; */
-	/* background-color:palegoldenrod; */
-/* } */ 
+
 
 
 	
@@ -185,6 +180,10 @@ footer{
 	text-align: center;
 }
 
+.contact{
+	display:flex;
+	flex-wrap:wrap;
+}
 
 /* Services page Css begins here */
 
@@ -256,3 +255,23 @@ footer{
 }
 
 
+@media only screen and (max-width: 600px) {
+	body {
+	  background-color: lightblue;
+	}
+	.main-div,.bottom-div,.intro,.details,.additional-info,.address-info{
+		width:100%;
+	}
+	.logo,.code-image{
+		display:none;
+	}
+	nav{
+		display:flex;
+		flex-direction:column
+	}
+	.section1{
+		flex-wrap;
+	}
+	
+	
+  }
