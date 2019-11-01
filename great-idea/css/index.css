@@ -77,16 +77,13 @@ body {
 
 
 
-	
-
-
-
+	/* nav */
 
 nav {
 	display:flex;
 	justify-content: space-between;
 	width:100%;
-	height:50vh;
+	height:30vh;
 	align-items: center;
 
 	
@@ -97,11 +94,7 @@ nav a{
 	color: grey;
 }
 
-/* all sections */
-section{
-	margin-bottom: 5%;
-	
-}
+
 /* section 1 */
 .section1{
 	display:flex;
@@ -141,7 +134,7 @@ section{
 	display: flex;
 	justify-content:space-between ;
 	border-top: 1px solid black;
-	height:150vh;
+	height:80vh;
 	align-items:flex-end;
 	flex-wrap: wrap;
 }
@@ -193,6 +186,7 @@ footer{
 	display: flex;
 	flex-direction: column;
 	border-bottom: 1px solid black;
+	margin-bottom:5%;
 	
 }
 	/* div  */
@@ -210,6 +204,7 @@ footer{
 	flex-wrap:wrap;
 	justify-content: space-between;
 	border-bottom: 1px solid black;
+	margin-bottom:5%;
 }
 	/* main-div divs */
 	.main-div {
@@ -220,12 +215,26 @@ footer{
 		padding: 2%;
 		background:#F5F5F5;
 	}
+
+
+	.learn-more{
+		display:block;
+		width:40%;
+		text-decoration:none;
+		padding:2%;
+		background: white;
+		border: 1px solid grey;
+		border-radius:5%;
+		margin-top:5%;
+		color:black;
+	}
 /* bottom section */
 .bottom{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	border-bottom: 1px solid black;
+	margin-bottom:5%;
 }
 
 .bottom-div{
@@ -255,7 +264,7 @@ footer{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 	body {
 	  background-color: lightblue;
 	}
